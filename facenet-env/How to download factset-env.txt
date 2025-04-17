@@ -1,0 +1,31 @@
+//DOWNLOAD THE factnet-env//
+
+1.cd "choose the directory where you store app.py"
+
+2.python -m venv facenet-env
+
+3.facenet-env\Scripts\activate
+
+4.(facenet-env) "Your directory C:\Users" #mustshowthis
+
+5.download some packages here:
+-pip install --upgrade pip
+-pip install streamlit==1.32.2
+-pip install opencv-python-headless==4.9.0.80
+-pip install insightface==0.7.3
+-pip install deepface==0.0.83
+-pip install numpy==1.24.4
+-pip install protobuf==4.25.3
+-pip install tensorflow==2.19.0
+-pip install tf-keras
+-pip install ml-dtypes==0.3.1
+-pip install onnxruntime
+-pip install onnxruntime-gpu
+-pip install onnxruntime
+-pip install streamlit opencv-python insightface deepface
+-pip install deepface --use-deprecated=legacy-resolver
+(TO RESOLVE DEPENDENCY CONFLICTS)
+
+6.streamlit run app.py
+
+#I AM GIVING THIS TEXT FILE BECAUSE ACTUAL FILES ARE TOO BIG TO STORE IN THIS REPOSITORY
